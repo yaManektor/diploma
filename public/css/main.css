@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body {
+    font-size: 17px;
+    font-family: "Montserrat", sans-serif;
+    color: #333;
+    font-weight: 400;
+    background: #fff;
+}
+
+a {
+    color: #ff5644;
+    text-decoration: none;
+    transition: all 500ms ease;
+}
+
+a:hover {
+    color: #919191;
+}
+
+.container {
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 70%;
+}
+
+@media (max-width: 900px) {
+    .container {
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 90%;
+    }
+}
+
+.btn {
+    width: 130px;
+    height: 40px;
+    background: #333;
+    border-radius: 5px;
+    border: 0;
+    font-size: 14px;
+    margin-left: 10px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+
+.btn:hover {
+    transform: scale(1.05) translateY(-5px);
+    box-shadow: 0px 10px 20px -2px rgba(0,0,0,0.3);
+}
+
+/*---------------------------------------------------------*/
+/*                        Header                           */
+/*---------------------------------------------------------*/
+header > .container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    background: #fafafa;
+    color: #333;
+}
+
+header > .container > .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > .container > .nav > a {
+    color: #7a7a7a;
+    margin-right: 30px;
+    transition: all 500ms ease;
+}
+
+header > .container > .nav a:hover {
+    color: #333;
+}
+
+header > .container > .logo img {
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+}
+
+header > .container > .logo span {
+    float: left;
+    font-size: 30px;
+    font-weight: 600;
+    display: block;
+    width: 300px;
+    margin-top: 15px;
+}
+
+/*---------------------------------------------------------*/
+/*                      Index page                         */
+/*---------------------------------------------------------*/
+.main {
+    margin-top: 50px;
+    min-height: 67vh;
+}
+
+.main > h1,
+.main > h2,
+.urls > h1 {
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 70px;
+    text-shadow: 2px 1px 5px black;
+}
+
+.main > h2 {
+    font-size: 40px;
+    margin-bottom: 5px;
+    text-shadow: none;
+}
+
+.main > p {
+    text-align: center;
+    padding: 0 400px;
+    line-height: 130%;
+    margin-bottom: 30px;
+}
+
+.urls > h1 {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    text-shadow: none;
+}
+
+.urls > .url {
+    width: 450px;
+    margin: 0 auto 30px auto;
+    padding: 10px 20px;
+    background: #dedede;
+    border-radius: 5px;
+}
+
+.urls > .url > p {
+    line-height: 140%;
+    margin-bottom: 3px;
+    font-size: 14px;
+}
+
+.urls > .url > p > b {
+    color: #5e5e5e;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/*---------------------------------------------------------*/
+/*                    Dashboard page                       */
+/*---------------------------------------------------------*/
+.user > p {
+    margin-top: 25px;
+}
+
+/*---------------------------------------------------------*/
+/*                        Footer                           */
+/*---------------------------------------------------------*/
+footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: #fff;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+footer > .social i {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    background: silver;
+    margin-left: 5px;
+    cursor: pointer;
+    color: #333;
+    transition: all 500ms ease;
+}
+
+footer > .social i:hover {
+    transform: translateY(-5px);
+}

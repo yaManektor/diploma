@@ -1,0 +1,59 @@
+.reg-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.urls > .url > .form {
+    margin-bottom: 0;
+}
+
+.urls > .url > .form > .btn {
+    width: 120px;
+    margin-top: 10px;
+    font-size: 13px;
+    background: #333;
+    color: #fff;
+}
+
+.form input,
+.form textarea {
+    width: 100%;
+    background: #fcfcfc;
+    border: 1px solid silver;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 15px 20px;
+    margin-top: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+.form input:focus,
+.form textarea:focus {
+    border: 1px solid #ff5644;
+}
+
+.form textarea {
+    height: 200px;
+    resize: none;
+}
+
+.form .btn {
+    margin-left: 0;
+    margin-top: 20px;
+    background: #ff5644;
+    width: 170px;
+}
+
+.form .error {
+    color: #ff5644;
+    font-weight: 600;
+    margin-top: 10px;
+}
